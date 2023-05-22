@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>Mitglied Register</title>
+    </head>
+    <body>
+        <form action="fmitglieder.php" method="post">
+            <div class="PersNrClass">
+                <input type="text" name="PersNr">
+                <label for="PersNr">PersNr</label>
+            </div>
+            <div class="FMNrClass">
+                <input type="text" name="FmNr">
+                <label for="FmNr">FmNr</label>
+            </div>
+            <div class="VornameClass">
+                <input type="text" name="Vorname">
+                <label for="Vorname">Vorname</label>
+            </div>
+            <div class="VWGrad">
+                <input type="radio" name="VWGrad" value="m">Mann <br>
+                <input type="radio" name="VWGrad" value="f">Frau <br>
+                <input type="radio" name="VWGrad" value="s">Sohn <br>
+                <input type="radio" name="VWGrad" value="t">Tochter <br>
+            </div>
+            <div class="ZuschlagClass">
+                <input type="text" name="Zuschlag">
+                <label for="Zuschlag">Zuschlag</label>
+            </div>
+            <button type="submit" name="abschiciken">Abschicken</button>
+        </form>
+    </body>
+</html>
